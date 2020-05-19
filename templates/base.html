@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>pooja portal</title>
+</head>
+<style>
+    nav{ float: right;}
+    a{margin-right: 70px;}
+    h1{text-align: center;}
+    hr{margin-top: 30px;
+        border: 2px solid black;
+    }
+    footer{position: fixed;
+            bottom: 10px;
+            text-align: center;
+            border: 2px solid black;
+    }
+    h2{text-align: center;
+    font-size:100px;
+    color: red;}
+    bodyp {text-align: center;}
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+    }
+</style>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+
+
+    <a href="/home">HOME</a>
+    <a href="/contact">contact</a>
+    <a href="/galary">galary</a>
+
+        </div>
+    </div>
+</nav>
+<br>
+<h2>Welcome</h2>
+<hr>
+
+{%  block content %}
+
+{%  endblock %}
+    <div class="footer">
+        <p>thank your</p>
+    </div>
+</body>
+</html>
